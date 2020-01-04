@@ -19,3 +19,8 @@ SDK: 2.2.1
 Components Core: 1.1.2
 Components CLI: 1.4.0
 ```
+
+
+### Document
+
+https://dev.classmethod.jp/cloud/aws/serverless-framework-with-python-3-6/
