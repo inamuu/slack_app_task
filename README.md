@@ -4,22 +4,20 @@ Slack App Task Tool
 ### Setup
 
 ```sh
-brew upgrade node
+python -m venv ~/.venv/slack_app_task
+source ~/.venv/slack_app_task/bin/activate
+pip install -r requirements.txt
 ```
 
 ```sh
-npm install serverless -g
+cp lambda.json.sample lambda.json
 ```
+
+### Deploy
 
 ```sh
-$ sls -v
-Framework Core: 1.60.5
-Plugin: 3.2.7
-SDK: 2.2.1
-Components Core: 1.1.2
-Components CLI: 1.4.0
+lambda-uploader --profile PROFILE_NAME
 ```
-
 
 ### Document
 
