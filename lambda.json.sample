@@ -7,4 +7,6 @@
   "role": "arn:aws:iam::XXXXXXXXX:role/AWS_Lambda",
   "timeout": 60,
   "memory": 128,
+  "variables":
+  {}
 }
