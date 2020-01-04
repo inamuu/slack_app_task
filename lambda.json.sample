@@ -1,0 +1,10 @@
+{
+  "name": "slack-app-task-tool",
+  "description": "Slack app fot management tasks",
+  "region": "ap-northeast-1",
+  "handler": "handler.lambda_handler",
+  "runtime": "python3.8",
+  "role": "arn:aws:iam::XXXXXXXXX:role/AWS_Lambda",
+  "timeout": 60,
+  "memory": 128,
+}
