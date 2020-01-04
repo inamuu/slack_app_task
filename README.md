@@ -34,6 +34,14 @@ curl -XPOST https://エンドポイント名/v1/task -d '{ "key" : "test" }'
 
 bodyに上記値が入ってこればOK.
 
+### Slack Appの作成
+
+1. https://api.slack.com/apps
+2. Create New App
+3. App Name に task-manager
+4. Development Slack Workspaces に 自分のワークスペースを選択
+5. Create App
+
 ### セットアップ
 
 ```sh
