@@ -42,6 +42,15 @@ bodyに上記値が入ってこればOK.
 4. Development Slack Workspaces に 自分のワークスペースを選択
 5. Create App
 
+### Bot Userの作成
+
+1. Bot Userの作成
+2. Install your app to your workspace
+3. 権限を許可
+4. Event Subscriptions で Enable Events を ON
+5. Request URL にAPI GatewayのエンドポイントURLを設定
+6. Subscribe to bot events で app_mention を追加
+
 ### セットアップ
 
 ```sh
